@@ -57,8 +57,8 @@ namespace OpenAIRequestExample
 
         public async Task<IEnumerable<SearchResult<Document>>> GetDocumentsSummary()
         {
-            var searchServiceName = "kobaraccogservicenotoai-asdiovej7zvvrji";
-            var apiKey = "Ri898796Io2xMyyOfVVNBn8p7u3EJVjDMClU63MSCfAzSeB5F4AZ";
+            var searchServiceName = "";
+            var apiKey = "";
             var searchIndexName = "azureblob-index";
             var searchIndexClient = new SearchIndexClient(searchServiceName, searchIndexName, new SearchCredentials(apiKey));
 
